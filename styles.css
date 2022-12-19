@@ -1,8 +1,41 @@
-.col-4{
-    background-color: cadetblue;
+.r1-1div{
+    background-color: red;
+    width: 100%;
+    height: 90px;
 }
 
-.col-8{
-    background-color:forestgreen;
+.r1-2div{
+    background-color: green;
+    width: 100%;
+    height: 90px;
 }
+
+.r2-1div{
+    background-color: yellow;
+    width: 100px;
+    height: 90px;
+}
+
+.r2-2div{
+    background-color: aquamarine;
+    width: 100px;
+    height: 90px;
+}
+
+.r3-1div{
+    background-color: pink;
+    width: 100px;
+    height: 90px;
+}
+
+.r3-2div{
+    background-color: goldenrod;
+    width: 100px;
+    height: 90px;
+}
+
+.col-6{
+    background-color: black;
+}
+
 /* Your CSS Code here. */
