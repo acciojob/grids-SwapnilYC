@@ -1,41 +1,46 @@
-.r1-1div{
-    background-color: red;
-    width: 100%;
-    height: 90px;
-}
-
-.r1-2div{
+.r1-c1{
     background-color: green;
     width: 100%;
     height: 90px;
 }
 
-.r2-1div{
-    background-color: yellow;
-    width: 100px;
+.r1-c2{
+    background-color: red;
+    width: 100%;
     height: 90px;
 }
 
-.r2-2div{
+.r2-c1{
     background-color: aquamarine;
     width: 100px;
     height: 90px;
 }
 
-.r3-1div{
-    background-color: pink;
+.r2-c2{
+    background-color: yellow;
     width: 100px;
     height: 90px;
 }
 
-.r3-2div{
+.r3-c1{
     background-color: goldenrod;
     width: 100px;
     height: 90px;
 }
 
+.r3-c2{
+    background-color: pink;
+    width: 100px;
+    height: 90px;
+}
+
+/* 
 .col-6{
     background-color: black;
 }
+
+.col4{
+    background-color: black;
+} */
 
 /* Your CSS Code here. */
