@@ -12,25 +12,28 @@
 
 <body>
 	<h1>GRIDs</h1>
-	<div class="container">
-		<!-- row 1 -->
-		<div class="row">
-			<div class="col-md-6 col-md-4 col-sm-6 r1c1">Row 1 coloumn 1</div>
-			<div class="col-md-6 col-md-8 col-sm-6 r1c2">Row 1 coloumn 2</div>
+	<div class="sc-container">
+		<div class="container">
+			<!-- row 1 -->
+			<div class="row sc-row">
+				<div class="sc-col col-md-4 col-sm-6 r1c1">Row 1 column 1</div>
+				<div class="sc-col col-md-8 col-sm-6 r1c2">Row 1 column 2</div>
+			</div>
+			<!-- row 2 -->
+			<div class="row sc-row justify-content-between">
+				<div class="sc-col col-md-4 offset-md-2 r2c1">Row 2 column 1</div>
+				<div class="sc-col col-md-4 r2c2">Row 2 column 2</div>
+			<!-- row 3 -->
+			<div class="row sc-row justify-content-center">
+				<div class="sc-col col-md-4 col-sm-6 r3c1">Row 3 column 1</div>
+				<div class="sc-col col-md-4 col-sm-6 r3c2">Row 3 column 2</div>
+			</div>
+			</div>
 		</div>
-		<!-- row 2 -->
-		<div class="row d-flex justify-content-between">
-			<div class="col-md-4 offset-md-2 r2c1">Row 2 coloumn 1</div>
-			<div class="col-md-8 col-md-4 r2c2">Row 2 colo		<!-- row 3 -->
-		<div class="row g-0 d-flex justify-content-center">
-			<div class="col-md-4 col-sm-6 r3c1">Row 3 coloumn 1</div>
-			<div class="col-md-8 col-md-4 col-sm-6 r3c2">Row 3 coloumn 2</div>
-		</div>
-	</div>
-	<!-- the entire body must be written by student -->
-	<script type="text/javascript" src="./script.js">
-	</script>
 
+		<!-- the entire body must be written by student -->
+		<script type="text/javascript" src="./script.js">
+		</script>
 </body>
 
 </html>
